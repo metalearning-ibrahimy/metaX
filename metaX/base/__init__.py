@@ -1,1 +1,1 @@
-from .ipbx import ipbx_probe
+from .metax import metax_probe
