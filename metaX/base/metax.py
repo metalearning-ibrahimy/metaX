@@ -51,8 +51,8 @@ from wordcloud import WordCloud
 
 ############################################################################
 
-# ipbx Class
-class ipbx_probe():
+# metax Class
+class metax_probe():
     def __init__(self, file_bib, db = 'scopus', del_duplicated = True):
         self.institution_names =  [ 
                                     'acad', 'academy', 'akad', 'aachen', 'assoc', 'cambridge', 'ctr', 'cefet', 'center', 'centre', 'chuo kikuu', 
