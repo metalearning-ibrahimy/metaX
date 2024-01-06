@@ -855,8 +855,7 @@ class metax_probe():
     def __read_bib(self, bib, db = 'scopus', del_duplicated = True):
         self.vb = []
         db      = db.lower()
-#        f_file  = open(bib, 'r', encoding = 'utf8')
-        f_file  = StringIO(file_name)
+        f_file  = open(bib, 'r', encoding = 'utf8')
         f_lines = f_file.read()
         f_list  = f_lines.split('\n')
         if (db == 'wos'):
